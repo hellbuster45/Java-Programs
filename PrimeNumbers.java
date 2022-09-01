@@ -20,8 +20,8 @@ public class PrimeNumbers {
         {
             String op = ((fact+1) % a == 0)? "Number is prime" : "Number is not prime";
             System.out.println(op);
-            grasp.close();            
         }
+        grasp.close();            
     }
 }
 /*This program uses Wilson's Theorem to check for prime numbers */
