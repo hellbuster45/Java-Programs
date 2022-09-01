@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Dec2Hex{
+public class DectoHex{
     public static void main(String[] args)
         {
             int dec, quot, rem, i = 0, j;
