@@ -1,8 +1,7 @@
 import java.util.Scanner;
 public class Calculator {
-    public static void main(String[] args) throws Exception //what's this??
+    public static void main(String[] args)
     {
-        System.out.println("I am going to make a calculator");
         int a, b;
         byte choice;
         Scanner grasp = new Scanner(System.in);
