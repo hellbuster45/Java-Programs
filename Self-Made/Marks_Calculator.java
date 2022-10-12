@@ -10,7 +10,8 @@ import java.util.Scanner;
 
 class Marks {
     // Marks(byte num, int[] mrks, String[] subs)
-    static void enter_details(byte num, int[] mrks, String[] subs) {
+    static void enter_details(byte num, int[] mrks, String[] subs) 
+    {
         Scanner grasp = new Scanner(System.in);
         for (byte i = 0; i < num; i++) {
             switch (i) {
@@ -49,8 +50,8 @@ class Marks {
                 mrks[i] = grasp.nextInt();
             }
         }
-
         System.out.printf("\n\nMarks and names of %d subjects entered successfully!!\n\n", num);
+        grasp.close();
     }
 
     static void printRecord(String name1, int mrk[], String[] sub, byte n) {
@@ -84,12 +85,15 @@ class Marks {
         System.out.println("Would you like to continue?? (Press 1 to continue OR Press 0 to exit): ");
         Scanner grasp = new Scanner(System.in);
         ch = grasp.nextByte();
+        grasp.close();
         return ch;
     }
 }
 
-public class Marks_Calculator {
-    public static void main(String[] args) {
+public class Marks_Calculator 
+{
+    public static void main(String[] args) 
+    {
         Scanner grasp = new Scanner(System.in);
         String a;
         byte choice = 2, num;
@@ -172,7 +176,7 @@ public class Marks_Calculator {
                 }
             }
         }while(choice != 0);
-
         System.out.println("\n\nYou have exited the program!!\n\n");
+        grasp.close();
     }
 }

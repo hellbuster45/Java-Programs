@@ -10,6 +10,6 @@ class Conditional_Operator{
         choice = grasp.nextByte();
 
         System.out.println("answer is: " + (choice == 1 ? a+b : a-b));
-        
+        grasp.close();
     }
 }
