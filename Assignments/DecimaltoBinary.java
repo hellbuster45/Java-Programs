@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Decimal_to_Binary
+public class DecimaltoBinary
 {
     public static void main(String[] args)
     {
@@ -10,6 +10,7 @@ public class Decimal_to_Binary
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter a decimal number: ");
         dec = scan.nextInt();
+        scan.close();
         do
         {
             quot =  (dec / 2);
@@ -23,6 +24,5 @@ public class Decimal_to_Binary
         {
             System.out.print(arr[j]);
         }
-        scan.close();
     }
 }
