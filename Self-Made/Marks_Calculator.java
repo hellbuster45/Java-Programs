@@ -51,7 +51,7 @@ class Marks {
             }
         }
         System.out.printf("\n\nMarks and names of %d subjects entered successfully!!\n\n", num);
-        grasp.close();
+        //grasp.close();
     }
 
     static void printRecord(String name1, int mrk[], String[] sub, byte n) {
@@ -85,7 +85,7 @@ class Marks {
         System.out.println("Would you like to continue?? (Press 1 to continue OR Press 0 to exit): ");
         Scanner grasp = new Scanner(System.in);
         ch = grasp.nextByte();
-        grasp.close();
+        //grasp.close();
         return ch;
     }
 }
@@ -177,6 +177,6 @@ public class Marks_Calculator
             }
         }while(choice != 0);
         System.out.println("\n\nYou have exited the program!!\n\n");
-        grasp.close();
+        //grasp.close();
     }
 }
