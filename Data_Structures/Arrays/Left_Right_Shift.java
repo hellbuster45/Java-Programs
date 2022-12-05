@@ -1,5 +1,12 @@
 package Data_Structures.Arrays;
 
+
+/** --Description
+ * Shifting Array elements towards the left and right
+ * Number of shifts is according to the user
+ */
+
+ 
 import java.util.Scanner;
 import java.util.Arrays;
 
